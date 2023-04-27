@@ -1,3 +1,6 @@
+import navbar_items_list from './navbar-items';
+import chef_image from './chef.png';
+
 // Header section for all tabs
 function addHeader() {
 
@@ -22,12 +25,11 @@ function addHeader() {
 
     const name_logo_img = document.createElement('img');
     name_logo_img.setAttribute('id', 'logo-img');
-    name_logo_img.src = '../src/chef.png';
+    name_logo_img.src = chef_image;
 
     name_logo.appendChild(name_logo_h1);
     name_logo.appendChild(name_logo_img);
 
-    let navbar_items_list = require('../src/navbar-items.json');
     // #links elements
     for(let items of navbar_items_list) {
         let link_element = document.createElement('p');

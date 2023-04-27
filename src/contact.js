@@ -1,7 +1,7 @@
+import contacts_list from './contact-items';
+
 // Contact us tab
 function addContact() {
-    // Contact list
-    let contacts_list = require('../src/contact-items.json');
 
     // div#content element
     const content = document.querySelector('#content');

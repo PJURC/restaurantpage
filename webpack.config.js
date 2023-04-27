@@ -18,6 +18,11 @@ module.exports = {
             loader: 'file-loader',
             options: {}
         }]
+      },
+      {
+        test: /\.json$/,
+        use: ['json-loader'],
+        type: 'javascript/auto'
       }
     ],
   },
