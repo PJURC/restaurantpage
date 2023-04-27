@@ -1,3 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-color: #015958;
+    color: #C7FFED;
+}
+
 #navbar {
-    color: blue;
+    max-height: 100px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+    background-color: #023535;
+    padding: 1rem;
+}
+
+#name-logo {
+    display: flex;
+    gap: 20px;
+    justify-content: baseline;
+    align-items: center;
+}
+
+#logo-img {
+    max-width: 60px;
+}
+
+#links {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+}
+
+#description {
+    width: 50%;
+    background-color: rgba(216, 255, 219, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    margin: 3rem auto;
+    padding: 2rem 1rem;
+}
+
+#description h1 {
+    padding: 1rem;
+    border-bottom: 1px solid #023535;
+}
+
+#description h2, p {
+    padding: 1rem;
+}
+
+#description p {
+    font-size: larger;
+}
+
+.menu-item {
+    margin: 0 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #023535;
+    padding-bottom: 1rem;
+}
+
+.menu-item:last-child {
+    border-bottom: none;
+}
+
+.menu-img {
+    max-width: 200px;
+}
+
+.selected {
+    color: red;
+}
+
+.contact-window {
+    margin-top: 2rem;
+    width: 80%;
+    border: 1px solid #023535;
+    border-radius: 10px;
+}
+
+.contact-info-body {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.contact-info-body-text {
+    width: 60%;
+}
+
+.contact-image {
+    max-width: 200px;
+    border: 3px solid #023535;
+    border-radius: 20px;
 }

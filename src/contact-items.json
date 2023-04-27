@@ -1,0 +1,16 @@
+[
+    {
+       "name":"The Chef",
+       "description":"The Chef is a very good cook. He is always on time and always available.",
+       "phone":"Phone: +1 (123) 456-7890",
+       "email":"Email: thechef@unrealcooks.com",
+       "image":"../src/thechef.jpg"
+    },
+    {
+        "name":"The Accountant",
+        "description":"Our accountant ensures that our finances are in order.",
+        "phone":"Phone: +1 (134) 455-7890",
+        "email":"Email: theaccountant@unrealcooks.com",
+        "image":"../src/theaccountant.jpg"
+     }
+]

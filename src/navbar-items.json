@@ -1,0 +1,14 @@
+[
+    {
+       "name":"Home",
+       "id":"navbar-home"
+    },
+    {
+       "name":"Menu",
+       "id":"navbar-menu"
+    },
+    {
+       "name":"Contact Us",
+       "id":"navbar-contact"
+    }
+]
