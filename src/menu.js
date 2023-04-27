@@ -1,6 +1,6 @@
 // Menu tab
 function addMenu() {
-    let menu_items_list = require('../src/menu-items.json');
+    let menu_items_list = require('./restaurantpage/src/menu-items.json');
 
     // div#content element
     const content = document.querySelector('#content');
@@ -30,7 +30,7 @@ function addMenu() {
 
         let menu_item_img = document.createElement('img');
         menu_item_img.setAttribute('class', 'menu-img');
-        menu_item_img.src = '../src/food.jpg';
+        menu_item_img.src = './restaurantpage/src/food.jpg';
 
         let menu_item_desc = document.createElement('p');
         menu_item_desc.textContent = item.description;
